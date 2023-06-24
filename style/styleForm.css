@@ -1,0 +1,46 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.body {
+    background-color: currentcolor;
+}
+
+.titulo {
+    color: #fff;
+}
+
+.button-action{
+    display: flex;
+    gap: 11%;
+    cursor: pointer;
+}
+
+.buton-add{
+    display: flex;
+    gap: 12%;
+    align-items: center;
+}
+
+.box-items{
+    display: flex;
+    gap: 81%;
+    align-items: baseline;
+}
+
+.body-create{
+    background-color: cornsilk;
+}
